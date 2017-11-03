@@ -1,0 +1,26 @@
+
+IMPORTANT URLS FOR IBM BLUEMIX
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Building Client Application
+https://console.bluemix.net/docs/services/conversation/develop-app.html#building-a-client-application
+
+Chatbots Deployment Overview
+https://console.bluemix.net/docs/services/conversation/deploy.html#deployment-overview
+
+Creating Conversation
+https://www.ibm.com/watson/services/conversation-2/
+
+Build a Chatbot for your Business
+https://www.ibm.com/watson/how-to-build-a-chatbot/
+
+
+Cloud Foundry CLI
+https://github.com/cloudfoundry/cli#downloads
+https://docs.cloudfoundry.org/cf-cli/
+
+
+https://github.com/watson-developer-cloud/conversation-simple
+
+--------------------------------------------------------------------------------------------------------------------------
