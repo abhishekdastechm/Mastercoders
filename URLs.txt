@@ -24,3 +24,9 @@ https://docs.cloudfoundry.org/cf-cli/
 https://github.com/watson-developer-cloud/conversation-simple
 
 --------------------------------------------------------------------------------------------------------------------------
+Arpan:-
+https://stackoverflow.com/questions/29987323/how-do-i-send-data-from-js-to-python-with-flask
+
+https://stackoverflow.com/questions/20628295/post-data-to-python-script
+
+------------------------------------------------------------
