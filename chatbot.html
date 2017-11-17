@@ -248,11 +248,12 @@ function PostChat(chatVal)
 				   document.getElementById("divLoader").style.display = "none";
 				   document.getElementById("btnChat").style.display = "block";
 				   document.getElementById("txtInput").style.display = "block";
+            document.getElementById("txtInput").focus();
 			},
         error: function(request,status, errorThrown) {
             var newDivForError = document.createElement("div");
                    newDivForError.setAttribute('class', 'alert alert-danger');
-                   newDivForError.innerHTML = "<span><strong>Danger!</strong> Indicates potentially negative action</span><div class=\"clearFix\"></div>";
+                   newDivForError.innerHTML = "<span><strong>Alert!</strong> Check If Watson Is Up And Running</span><div class=\"clearFix\"></div>";
             
                    document.getElementById("divChatPanel").appendChild(newDivForError);
                    document.getElementById("txtInput").value="";
@@ -260,9 +261,11 @@ function PostChat(chatVal)
 				   document.getElementById("divLoader").style.display = "none";
 				   document.getElementById("btnChat").style.display = "block";
 				   document.getElementById("txtInput").style.display = "block";
+            document.getElementById("txtInput").focus();
 			}
 		});
 		$(".msg_container_base").stop().animate({ scrollTop: $(".msg_container_base")[0].scrollHeight}, 2500);		
+        
 	}
 	
 	function checkSubmit(e) 
@@ -273,6 +276,7 @@ function PostChat(chatVal)
 		document.getElementById("txtInput").value="";
 	  }
    }
+        
 
 </script>
 
@@ -280,7 +284,7 @@ function PostChat(chatVal)
     <body>
         <div class="container" align="center" style="width: 1100px; margin-top: 50px; margin-left: 65px;">
 		<video id="vdo" width="1000" height="470" controls autoplay> <!-- controls -->
-  <source src="VW TIGUAN 2017.mp4" type="video/mp4">
+  <source src="static/VW TIGUAN 2017.mp4" type="video/mp4">
   <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
   Your browser does not support HTML5 video.
 </video>
@@ -296,9 +300,7 @@ function PostChat(chatVal)
                     </div>
                 </div>
                 <div id="divChatPanel" class="panel-body msg_container_base" style="height:300px">
-                    
-                    
-                    
+                                        
                 </div>
                 <div class="panel-footer">
                     <div id="divInputs" class="input-group">
